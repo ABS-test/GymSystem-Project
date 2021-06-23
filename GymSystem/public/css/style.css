@@ -1,0 +1,69 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+.process_item {
+    height: 150px;
+}
+.social_links img {
+    height: 50px;
+}
+.trainer_list_info p::after {
+    position: absolute;
+    bottom: 50px;
+    content: '';
+    border-bottom: 2px solid #000;
+    width: 50px;
+    left: calc(50% - 23px);
+}
+.article_img {
+    width: 200px; 
+    height: 250px;
+}
+.wrapper {
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.slides {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.slides_item{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#left_button, #right_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+}
+#left_button {
+    left: 0;
+}
+#right_button {
+    right: 0;
+}
+.dots_block {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);    
+}
+.dots_item {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 7px;
+    background: #fff;
+    cursor: pointer;
+}
+.dot-active {
+    background: blue;
+}
